@@ -1,2 +1,6 @@
-# AI-Powered-Regulatory-Compliance-Checker
-An end-to-end LegalTech solution that uses Large Language Models (LLMs) to ingest PDF contracts, extract clauses, detect regulatory risks, and auto-generate legal amendments.
+# Run the pipeline 
+python run.py --pdf data\raw\contract1.pdf
+
+
+# Run the streamlit web app
+streamlit run app.py
